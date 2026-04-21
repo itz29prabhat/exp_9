@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DevOps Experiments</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Experiment_9 Dashboard</h1>
+
+<div class="buttons">
+  <button onclick="showExp(1)">exp_3.1.1</button>
+  <button onclick="showExp(2)">exp_3.1.2</button>
+  <button onclick="showExp(3)">exp_3.1.3</button>
+</div>
+
+<!-- EXP 1 -->
+<div id="exp1" class="content">
+  <h2>Docker Multi-Stage Build</h2>
+  <button onclick="runDocker()">Run Docker Build</button>
+  <div id="dockerOutput"></div>
+</div>
+
+<!-- EXP 2 -->
+<div id="exp2" class="content">
+  <h2>CI/CD Pipeline</h2>
+  <button onclick="runCICD()">Start Pipeline</button>
+  <div id="cicdOutput"></div>
+</div>
+
+<!-- EXP 3 -->
+<div id="exp3" class="content">
+  <h2>AWS Deployment</h2>
+  <button onclick="runAWS()">Deploy Infrastructure</button>
+  <div id="awsOutput"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

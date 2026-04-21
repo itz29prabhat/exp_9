@@ -1,0 +1,42 @@
+# 🧩 Combined Experiments (Docker + CI/CD + AWS)
+
+## 👨‍🎓 Student Details
+- Name: Prabhat Ranjan  
+- UID: 24BCF10014  
+- Section: 24BCF-1(B)
+
+---
+
+## 📌 Aim
+To implement and combine Docker containerization, CI/CD pipeline using GitHub Actions, and AWS deployment concepts into a single project.
+
+---
+
+## 🎯 Objectives
+- Create a Dockerized application  
+- Implement CI/CD pipeline using GitHub Actions  
+- Understand AWS deployment workflow  
+- Combine all experiments into a single interface  
+- Enable switching between experiments using buttons  
+
+---
+
+## 🛠️ Technologies Used
+- HTML  
+- CSS  
+- JavaScript  
+- Docker  
+- GitHub Actions  
+- AWS (concept)
+
+---
+
+## 💻 Features
+- Single dashboard for all experiments  
+- Button-based navigation (Exp 1, Exp 2, Exp 3)  
+- Simple UI for demonstration  
+- Dockerfile for containerization  
+
+---
+
+## 📂 Project Structure

@@ -1,0 +1,20 @@
+body {
+  font-family: Arial;
+  text-align: center;
+}
+
+.buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+}
+
+.content {
+  display: none;
+  margin-top: 20px;
+}
+
+.box {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #333;
+}
